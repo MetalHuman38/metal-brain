@@ -13,7 +13,7 @@ const Whatmetalbrain = () => {
           Catalyzing Innovation, Forging Solutions: MetalBrain's Journey to
           Transforming Ideas into Reality.
         </h1>
-        <p>Explore more</p>
+        <p>Explore More Now</p>
       </div>
       <div className="metal__whatMetalbrain-container">
         <Feature />

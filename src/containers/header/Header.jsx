@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="metal__header section__padding" id="home">
       <div className="metal__header-content">
-        <h1 className="gradient__text">
+        <h1 className="gradient-text">
           Code to Canvas: Crafting Digital Experiences With Excellence.
         </h1>
         <p>

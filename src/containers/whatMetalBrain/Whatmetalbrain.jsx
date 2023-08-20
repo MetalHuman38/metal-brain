@@ -1,6 +1,6 @@
 import React from "react";
-import "./Whatmetalbrain.scss";
 import { Feature } from "../../components";
+import "./Whatmetalbrain.scss";
 
 const Whatmetalbrain = () => {
   return (

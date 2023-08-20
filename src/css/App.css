@@ -54,6 +54,12 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.gradient-text-3 {
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%), linear-gradient(0deg, #ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 .section__padding {
   padding: 4rem 6rem; }
 

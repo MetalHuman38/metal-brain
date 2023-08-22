@@ -3,8 +3,14 @@ import "./Cta.scss";
 
 const Cta = () => {
   return (
-    <div>
-      <h1>Cta</h1>
+    <div className="metal__Cta">
+      <div className="metal__Cta-content">
+        <p>Request Early Access to get Started</p>
+        <h3>Request Early Access to get Started</h3>
+      </div>
+      <div className="metal__Cta-btn">
+        <button>Get Started</button>
+      </div>
     </div>
   );
 };

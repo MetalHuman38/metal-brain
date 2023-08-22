@@ -8,10 +8,10 @@ const Menu = () => (
       <a href="#Home">Home</a>
     </p>
     <p>
-      <a href="#Home">What is Metal-Brain</a>
+      <a href="#Whatmetalbrain">What is Metal-Brain</a>
     </p>
     <p>
-      <a href="#Home">Services</a>
+      <a href="#Features">Services</a>
     </p>
     <p>
       <a href="#Home">Projects</a>
@@ -20,7 +20,7 @@ const Menu = () => (
       <a href="#Home">Blog</a>
     </p>
     <p>
-      <a href="#Home">Contact</a>
+      <a href="#Home">Possibilities</a>
     </p>
   </>
 );

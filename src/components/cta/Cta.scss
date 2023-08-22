@@ -1,0 +1,74 @@
+@import "../../sass/abstract/variables.scss";
+
+.metal__Cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  background: $gradient-text;
+}
+
+.metal__Cta-content p {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.65rem;
+  line-height: 1.85rem;
+  color: $black-color;
+}
+
+.metal__Cta-content h3 {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.08rem;
+  line-height: 2.3rem;
+  color: $black-color;
+}
+
+.metal__Cta-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.metal__Cta-btn button {
+  background: $black-color;
+  color: $white-color;
+  border-radius: 2.5rem;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+  .metal__Cta {
+    flex-direction: column;
+  }
+
+  .metal__Cta-btn {
+    margin: 2rem 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .metal__Cta {
+    margin: 4rem 2rem;
+  }
+
+  .metal__Cta-content h3 {
+    font-size: 1rem;
+    line-height: 2.02rem;
+  }
+}

@@ -5,7 +5,7 @@ import "./Whatmetalbrain.scss";
 const Whatmetalbrain = () => {
   return (
     <div className="metal__whatMetalbrain section__margin" id="Whatmetalbrain">
-      <div className="metal__whatMetalbrain-feature">
+      <div className="metal__whatMetalbrain__feature">
         <Feature
           title="What is MetalBrain"
           text="MetalBrain is your gateway to unparalleled software engineering excellence. With a dedication to crafting elegant solutions,We pride ourselves on delivering efficient, reliable, and scalable solutions that propel your business forward. At Metal-Brain, we don't just code; we architect solutions that stand the test of time."

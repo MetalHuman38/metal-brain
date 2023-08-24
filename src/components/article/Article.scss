@@ -50,3 +50,10 @@
 .metal__blog-container_article-content p:last-child {
   cursor: pointer;
 }
+
+@media screen and (max-width: 550px) {
+  .metal__blog-container_article-content h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Article } from "../../components";
-import { fav6, blogimg1, blog02, brainimg, blog05 } from "./imports";
+import { aboutimg, scimage1, blog02, brainimg, blog05 } from "./imports";
 import "./Blog.scss";
 
 const Blog = () => {
@@ -14,14 +14,14 @@ const Blog = () => {
       <div className="metal__blog-container">
         <div className="metal__blog-container_groupA">
           <Article
-            imgUrl={fav6}
+            imgUrl={aboutimg}
             date="Aug 22, 2023"
             title="Unveiling the Technological Mind: A Glimpse into the Innovation at Metal-Brain"
           />
         </div>
         <div className="metal__blog-container_groupB">
           <Article
-            imgUrl={blogimg1}
+            imgUrl={scimage1}
             date="Aug 22, 2023"
             title="From Vision to Code: Crafting the Future with Metal-Brain's Tech Stack"
           />

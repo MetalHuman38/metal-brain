@@ -1,0 +1,150 @@
+@import "../../sass/abstract/variables.scss";
+
+.metal__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $footer-color;
+}
+
+.metal__footer-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.metal__footer-heading h1 {
+  font-family: $font-family;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.metal__footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid $white-color;
+  text-align: center;
+  margin-bottom: 10rem;
+  cursor: pointer;
+}
+
+.metal__footer-btn p {
+  box-sizing: border-box;
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 21px;
+  color: $white-color;
+  word-spacing: 2px;
+}
+
+.metal__footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.metal__footer-links div {
+  width: 250px;
+  margin: 1rem;
+}
+
+.metal__footer-links_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.metal__footer-links_logo a {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: $color-cornsilk;
+}
+
+.metal__footer-links_logo p {
+  font-family: $font-family;
+  font-size: 12px;
+  line-height: 14px;
+  color: $white-color;
+}
+
+.metal__footer-links_div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.metal__footer-links_div h4 {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white-color;
+  margin-bottom: 1rem;
+}
+
+.metal__footer-links_div p {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white-color;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.metal__footer-copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.metal__footer-copyright p {
+  font-family: $font-family;
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+  -webkit-font-feature-settings: "liga" off;
+  -moz-font-feature-settings: "liga" off;
+  color: $white-color;
+}
+
+@media screen and (max-width: 850px) {
+  .metal__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .metal__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .metal__footer-links div {
+    margin: 1rem 0;
+  }
+
+  .metal__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .metal__footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
